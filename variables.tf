@@ -34,14 +34,14 @@ variable "addons" {
     description = "list of YAML files with Kubernetes addons which should be installed"
     type        = "list"
     default = [
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/storage-class.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/heapster.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/dashboard.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/external-dns.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/autoscaler.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/fluentd-es-kibana-logging.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/ingress.yaml",
-               "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/metrics-server.yaml"
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/storage-class.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/heapster.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/dashboard.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/external-dns.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/autoscaler.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/fluentd-es-kibana-logging.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/ingress.yaml",
+               "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/metrics-server.yaml"
 
     
     ]
