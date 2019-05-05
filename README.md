@@ -107,11 +107,11 @@ module "kubernetes" {
   ]
   
   addons = [
-    "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/storage-class.yaml",
-    "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/heapster.yaml",
-    "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/dashboard.yaml",
-    "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/external-dns.yaml",
-    "https://raw.githubusercontent.com/scholzj/terraform-aws-kubernetes/master/addons/autoscaler.yaml"
+    "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/storage-class.yaml",
+    "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/heapster.yaml",
+    "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/dashboard.yaml",
+    "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/external-dns.yaml",
+    "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/autoscaler.yaml"
   ]
 }
 ```
