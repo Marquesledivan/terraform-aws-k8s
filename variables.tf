@@ -42,7 +42,6 @@ variable "addons" {
                "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/fluentd-es-kibana-logging.yaml",
                "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/ingress.yaml",
                "https://raw.githubusercontent.com/Marquesledivan/terraform-aws-k8s/master/addons/metrics-server.yaml"
-
     
     ]
 
